@@ -1,4 +1,5 @@
 #-*- coding: utf-8 *-*
+#suma de dos números 
 import sys
 import mi_paquete.mis_funciones as fun 
 
