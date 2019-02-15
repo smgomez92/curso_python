@@ -1,11 +1,11 @@
 import mi_paquete.mis_funciones as fun 
 
 print("\t**** CALCULADORA DE DOS NUMEROS ****")
-num1=float(input("Ingrese el primer n�mero: "))
-num2=float(input("Ingrese el segundo n�mero: "))
+num1=float(input("Ingrese el primer número: "))
+num2=float(input("Ingrese el segundo número: "))
 
 while True:
-    print("""¿Qu� deseas hacer?
+    print("""¿Qué deseas hacer?
              1.- Sumar
              2.- Restar
              3.- Multriplicar
@@ -17,4 +17,4 @@ while True:
                    print ('El resultado es: ',res)
                    break
     else:
-        print("Esa opci�n NO es v�lida ")
+        print("Esa opción NO es válida ")
