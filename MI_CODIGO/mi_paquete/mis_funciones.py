@@ -28,9 +28,28 @@ def operaciones(a, b,opcion):
      '1':a + b,
      '2':a - b,
      '3':a * b,
-     '4':a / b,
+     '4':dividir(a,b),
     }
     return d[opcion]
+
+
+def validar():
+    
+	while True:
+	    try:		    
+		    a = float(input("Ingrese Un número: "))
+		    return a		
+	    except :
+		    print("El número ingresado no es válido \n \nINGRESE DE NUEVO: ")
+
+
+def dividir(a,b):
+	try:
+		c = a / b
+		return c
+	except:
+		return "No se puede dividir para cero"
+    
 
 """#parámetros arbitrarios
 def params (a, *tupla,**keys):
