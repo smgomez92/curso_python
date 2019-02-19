@@ -41,13 +41,13 @@ class Persona:
 		#METODOS ESPECIALES
 	#metodo destructor de la clase sirve para borrar la instancia o escribir alguna sentencia antes de eliminar
     #la instancia
-    #def __del__(self):
+    def __del__(self):
      #   print("se borró a",self.nombre)"""
      #el metodo estring para mostrar el objeto en forma de string 
-    #def __str__(self):
+    def __str__(self):
     	#return "[nombre = {},apellido = {},ced = {},]".format(self.nombre,self.apellido,self.ced)
-    #def __len__(self):
-    #	return algo
+    def __len__(self):
+    		return algo
 
         
 
